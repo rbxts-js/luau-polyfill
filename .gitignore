@@ -7,6 +7,7 @@ Packages/*
 !Packages/_Workspace/
 Packages/_Workspace/*
 !Packages/_Workspace/.robloxrc
+node_modules
 
 # Rbxm model files
 **/*.rbx[lm]*

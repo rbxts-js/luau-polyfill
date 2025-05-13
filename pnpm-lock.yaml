@@ -1,0 +1,95 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .: {}
+
+  modules/boolean:
+    dependencies:
+      '@rbxts-js/collections':
+        specifier: workspace:^
+        version: link:../collections
+
+  modules/collections:
+    dependencies:
+      '@rbxts-js/es7-types':
+        specifier: workspace:^
+        version: link:../es7-types
+      '@rbxts-js/instance-of':
+        specifier: workspace:^
+        version: link:../instance-of
+
+  modules/console:
+    dependencies:
+      '@rbxts-js/collections':
+        specifier: workspace:^
+        version: link:../collections
+
+  modules/es7-types: {}
+
+  modules/instance-of: {}
+
+  modules/luau-polyfill:
+    dependencies:
+      '@rbxts-js/boolean':
+        specifier: workspace:^
+        version: link:../boolean
+      '@rbxts-js/collections':
+        specifier: workspace:^
+        version: link:../collections
+      '@rbxts-js/console':
+        specifier: workspace:^
+        version: link:../console
+      '@rbxts-js/es7-types':
+        specifier: workspace:^
+        version: link:../es7-types
+      '@rbxts-js/instance-of':
+        specifier: workspace:^
+        version: link:../instance-of
+      '@rbxts-js/math':
+        specifier: workspace:^
+        version: link:../math
+      '@rbxts-js/number':
+        specifier: workspace:^
+        version: link:../number
+      '@rbxts-js/string':
+        specifier: workspace:^
+        version: link:../string
+      '@rbxts-js/symbol-luau':
+        specifier: ^1.0.0-ts.1
+        version: 1.0.0-ts.1
+      '@rbxts-js/timers':
+        specifier: workspace:^
+        version: link:../timers
+
+  modules/math: {}
+
+  modules/number: {}
+
+  modules/string:
+    dependencies:
+      '@rbxts-js/es7-types':
+        specifier: workspace:^
+        version: link:../es7-types
+      '@rbxts-js/number':
+        specifier: workspace:^
+        version: link:../number
+
+  modules/timers:
+    dependencies:
+      '@rbxts-js/collections':
+        specifier: workspace:^
+        version: link:../collections
+
+packages:
+
+  '@rbxts-js/symbol-luau@1.0.0-ts.1':
+    resolution: {integrity: sha512-TQS/ImDCK5KPGvbmyScH5EZS0ELSCDvZEFR3W+ItPlsLl+bDRSI/0uaKtJ7rbwXgdGwBDKM1QXFPjqe+KOphIA==}
+
+snapshots:
+
+  '@rbxts-js/symbol-luau@1.0.0-ts.1': {}

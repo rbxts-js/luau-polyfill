@@ -1,0 +1,6 @@
+{
+	"name": "luau-polyfill",
+	"scripts": {
+		"release": "pnpm publish --recursive --tag latest"
+	}
+}
